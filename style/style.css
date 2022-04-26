@@ -1,0 +1,581 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav{
+    padding: 14px 0;
+   
+}
+
+.container{
+    max-width: 1310px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+
+.navcontent{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.list{
+    display: flex;
+    align-items: center;
+}
+
+.link{
+    font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+color: rgba(18, 23, 34, 0.7);
+margin-right: 32px;
+transition: .3s;
+}
+.linkright{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;  
+    color: rgba(18, 23, 34, 0.7);
+    display: flex;
+    align-items: center;
+    
+}
+
+.fa-angle-right{
+    transform: rotate(90deg);
+}
+
+
+.link:hover{
+    color: #4058FF;
+}
+
+.linkpad{
+    width: 132px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(64, 140, 255, 0.1);
+border-radius: 20px;
+    color: #4058FF;
+    margin-left: 16px;
+    transition: .5s;
+}
+
+.linkpad:hover{
+    background: #4058FF;
+    color: #ffffff;
+}
+
+
+.link1{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #121722;
+}
+
+.header_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.header_leftzag{
+    max-width: 380px;
+    font-weight: 400;
+font-size: 50px;
+line-height: 50px;
+color: #121722;
+
+}
+
+.header_lefttext{
+    max-width: 239px;
+    font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+color: rgba(18, 23, 34, 0.7);
+margin: 20px 0;
+}
+
+.header_link{
+    width: 158px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #4058FF;
+box-shadow: 0px 4px 4px rgba(18, 23, 34, 0.01);
+border-radius: 100px;
+transition: .5s;
+}
+
+.header_link:hover{
+    background: #ececec;
+    color: #4058FF;
+}
+
+/* mainnnnnnnnnnnnnnnnn */
+/* sectionnnnnnnnnnnnnn */
+.section{
+    padding-top: 80px;
+}
+.sectop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seczag{
+    width: 683px;
+    font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+
+text-align: center;
+
+color: #121722;
+margin-bottom: 17px;
+}
+
+.sectext{
+    width: 523px;
+    font-weight: 400;
+font-size: 21px;
+line-height: 32px;
+
+text-align: center;
+margin-bottom: 48px;
+color: rgba(18, 23, 34, 0.7);
+}
+
+.sectionblock{
+    background: #4058FF;
+border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 80px 0;
+    
+}
+
+.leftseccon{
+    margin-left: 48px;
+}
+
+.leftconzag{
+    width: 355px;
+    font-weight: 400;
+font-size: 34px;
+line-height: 38px;
+
+color: #FFFFFF;
+}
+
+.leftcontext{
+    width: 306px;
+    font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+color: #E8F1FF;
+margin: 20px 0 46px;
+}
+.leftcontextt{
+    width: 282px;
+    padding-top: 20px;
+    padding-right: px;
+    border-top: 1px solid #E8F1FF;
+    font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+color: #E8F1FF;
+}
+.logos{
+    margin-top: 16px;
+}
+
+
+.dop1{
+    flex-direction: row-reverse;
+    background: rgba(241, 245, 255, 0.5);
+border-radius: 16px;
+margin: 24px 0 0 0;
+}
+
+.dop2{
+    font-weight: 400;
+font-size: 34px;
+line-height: 38px;
+/* or 112% */
+
+
+color: #121722;
+
+}
+.dop3{
+    font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+/* or 145% */
+
+
+color: rgba(18, 23, 34, 0.7);
+}
+
+.cardsec{
+    width: 49%;
+    height: 585px;
+    background: rgba(255, 244, 245, 0.5);
+border-radius: 16px;
+padding: 80px 48px 48px 48px;
+}
+
+.cardseczag{
+    font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height, or 125% */
+
+
+color: #121722;
+}
+
+.cardsectext{
+    font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+margin-bottom: 69px;
+
+color: rgba(18, 23, 34, 0.6);
+}
+
+.blocksec{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.secfoto{
+    margin-top: 100px;
+}
+
+.dop4{
+    background: rgba(255, 246, 228, 0.5);
+}
+
+/* sectionnnnnnnnnnnnnn */
+
+
+
+
+/* sectionnnnnn222222222 */
+
+
+.dop1_2{
+    background: #121722;
+border-radius: 16px;
+}
+
+.dop1_3{
+    font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+/* or 145% */
+
+
+color: #B9C0D5;
+}
+
+
+.dop2_1{
+background: rgba(241, 245, 255, 0.5);
+border-radius: 16px;
+padding: 57px  48px 48px 48px;
+height: 585px;
+
+}
+
+.mb{
+    margin-top: 0px;
+}
+
+.mb1{
+    margin-bottom: 24px;
+}
+.mb11{
+    margin-bottom: 36px;
+}
+
+.secblock{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    background: rgba(241, 245, 255, 0.5);
+border-radius: 16px;
+margin-top: 24px;
+}
+
+.seccardd{
+    width: 32%;
+}
+.seccard{
+    width: 30%;
+    height: 430px;
+    padding: 32px 41px 106px 32px;
+    background: #4058FF;
+box-shadow: 0px 0px 0px rgba(29, 33, 60, 0.27);
+border-radius: 16px;
+}
+
+.seccard_text{
+    font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+color: rgba(255, 255, 255, 0.9);
+}
+
+.seccard_zag{
+    font-weight: 400;
+font-size: 34px;
+line-height: 38px;
+/* or 112% */
+
+margin-bottom: 20px;
+color: #121722;
+
+}
+
+.seccard_zagg{
+    font-weight: 400;
+font-size: 32px;
+line-height: 36px;
+/* identical to box height, or 112% */
+
+
+color: #FFFFFF;
+}
+
+.seccard_textt{
+    font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+/* or 145% */
+
+
+color: rgba(18, 23, 34, 0.7);
+}
+
+.mt{
+    margin: 32px 0 2px;
+}
+
+.mtt{
+    margin: 13px 0 15px;
+}
+
+.seczag2{
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+/* identical to box height, or 117% */
+
+text-align: center;
+margin-top: 78px;
+margin-bottom: 17px;
+color: #121722;
+}
+
+.sectext2{
+    font-weight: 400;
+font-size: 21px;
+line-height: 32px;
+/* identical to box height, or 152% */
+
+text-align: center;
+margin-bottom: 48px;
+color: rgba(18, 23, 34, 0.7);
+}
+
+/* sectionnnnnn222222222 */
+
+
+/* sectionnnnnn333333333 */
+.section3{
+    padding-top: 113px;
+}
+.sec3zag{
+    font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+
+text-align: center;
+margin-bottom: 17px;
+color: #121722;
+}
+
+.sec3text{
+    font-weight: 400;
+font-size: 21px;
+line-height: 32px;
+
+text-align: center;
+
+color: rgba(18, 23, 34, 0.7);
+}
+.card img{
+    width: 100%;
+}
+
+.sec3link{
+    width: 213px;
+    height: 49px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(64, 140, 255, 0.1);
+border-radius: 34px;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+color: #4058FF;
+margin-top: 16px;
+margin-bottom: 48px;
+transition: .5s;
+}
+
+.sec3link:hover{
+    color: #ffffff;
+    background: #4058FF;
+}
+
+.block{
+    width: 768px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 16px;
+    
+}
+
+.card{
+    width: 245px;
+    
+}
+
+.cardtext{
+    font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+letter-spacing: 0.5px;
+text-transform: uppercase;
+
+color: rgba(18, 23, 34, 0.46);
+}
+
+.cardzag{
+    font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+
+
+color: #121722;
+}
+
+.prostoblock{
+    height: 346px;
+    background: #4058FF;
+border-radius: 16px;
+display: flex;
+flex-direction: column;
+margin-top: 71px;
+}
+.zag{
+    font-weight: 400;
+font-size: 34px;
+line-height: 38px;
+
+text-align: center;
+
+color: #FFFFFF;
+margin-bottom: 18px;
+}
+
+.prlink{
+    width: 158px;
+    height: 46px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+font-size: 18px;
+line-height: 18px;
+text-align: center;
+color: #4058FF;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(18, 23, 34, 0.01);
+border-radius: 100px;
+}
+
+.div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+/* sectionnnnnn333333333 */
+
+
+
+/* mainnnnnnnnnnnnnnnnn */
+
+
+/* =======footer======= */
+.footer{
+    padding: 80px 48px 64px;
+}
+
+.footerblock{
+    display: flex;
+}
+
+
+.footercard{
+    margin-right: 97px;
+}
+.footerlist{
+    width: 236px;
+    margin-right: 97px;
+}
+.footerlink{
+    font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #121722;
+margin-bottom: 9px;
+}
+.footer_text{
+    font-weight: 400;
+font-size: 12px;
+line-height: 19px;
+color: rgba(18, 23, 34, 0.7);
+}
+
+
+
+/* =======footer======= */

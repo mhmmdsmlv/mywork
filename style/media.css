@@ -1,0 +1,448 @@
+@media(max-width:1400px){
+    .container{
+        max-width: 1200px;
+    }
+}
+@media(max-width:1200px){
+    .container{
+        max-width: 960px;
+    }
+    .header_leftzag{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .section{
+        padding-top: 60px;
+    }
+    .leftconzag{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .leftcontext{
+        font-size: 15px;
+        margin: 10px 0 30px;
+        line-height: 20px;
+    }
+    .leftcontextt{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .sectionblock{
+        padding: 55px 0;
+    }
+    .cardsec{
+        padding: 50px 35px 35px 35px;
+        height: 370px;
+    }
+    .cardsectext{
+        margin-bottom: 25px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .cardseczag{
+        font-size: 20px;
+    }
+    .secfoto{
+        margin-top: 50px;
+    }
+    .mb{
+        margin-top: 6px;
+    }
+    .dop2_1{
+        height: 400px;
+        padding: 45px 35px 35px 35px;
+    }
+    .mb1{
+        margin-bottom: 20px;
+    }
+    .seccard_zag{
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .seccard_textt{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .seccard_zagg{
+        font-size: 19px;
+        line-height: 25px;
+    }
+    .seccard_text{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .mtt{
+        margin: 8px 0 10px;
+    }
+    .mt{
+        margin: 15px 0 0 0;
+    }
+    .seccard{
+        height: 340px;
+    }
+    .secblock{
+        padding: 40px;
+    }
+    .seczag2{
+        font-size: 28px;
+        line-height: 35px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    .sectext2{
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .sec3text{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .sec3zag{
+        font-size: 33px;
+        line-height: 25px;
+    }
+    .section3{
+        padding-top: 50px;
+    }
+}
+@media(max-width:960px){
+    .container{
+        max-width: 720px;
+    }
+    .link{
+        font-size: 13px;
+        margin-right: 20px;
+    }
+    .link1{
+        font-weight: 700;
+    }
+    .header_leftzag{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .header_lefttext{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .seczag{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .sectext{
+        font-size: 19px;
+    line-height: 12px;
+    }
+    .sectionblock{
+        flex-wrap: wrap;
+        
+    }
+    .leftconzag{
+        width: 500px;
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+    .leftcontext{
+        width: 530px;
+        margin: 10px 0;
+        text-align: center;
+    }
+    .leftcontextt{
+        width: 530px;
+        margin: 0;
+        text-align: center;
+    }
+    .logos{
+        margin: 0 auto;
+    }
+    .divv{
+       display: flex;
+       justify-content: center;
+       margin-top: 10px;
+    }
+    
+    .dop2{
+        
+    }
+    .leftseccon{
+        margin-left: 0 ;
+    }
+    .sectionblock{
+        display: block;
+    }
+    .leftcontext{
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .leftcontextt{
+        margin: 0 auto;
+    }
+    .cardsec{
+        padding: 35px 20px 20px 20px;
+    }
+    .cardsectext{
+        font-size: 13px;
+    }
+    .cardsec{
+        height: 315px;
+        
+    }
+    .secfoto{
+        margin-top: 25px;
+    }
+    .dop2_1{
+        height: 330px;
+    }
+    .secblock{
+        flex-wrap: wrap;
+    }
+    .seccardd{
+        width: 100%;
+    }
+    .seccard{
+        width: 49%;
+        height: 300px;
+    }
+    .seccard_textt{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .secblock{
+        padding: 25px;
+    }
+    
+    .block{
+        width: 680px;
+        justify-content: center;
+    }
+    .prostoblock{
+        height: 222px;
+    }
+    .footercard{
+        margin-right: 20px;
+    }
+    .footerlist{
+        margin-right: 20px;
+    }
+    .footer{
+        padding: 50px 48px 50px;
+    }
+    .footerlink{
+        font-size: 15px;
+    }
+}
+@media(max-width:720px){
+    .container{
+        max-width: 480px;
+    }
+    .navcontent{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .link{
+        margin-right: 15px;
+    }
+   
+    .header_content{
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    .header_leftzag{
+        max-width: 450px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .header_lefttext{
+        max-width: 450px;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .header_link{
+        margin: 0 auto;
+        margin-bottom: 10px;    
+    }
+    .seczag{
+        width: 450px;
+        font-size: 25px;
+    line-height: 28px;
+    }
+    .sectext{
+        width: 450px;
+        font-size: 17px;
+    line-height: 5px;
+    }
+    .leftconzag{
+        width: 390px;
+    }
+    .leftcontext{
+        width: 380px;
+    }
+    .leftcontextt{
+        width: 373px;
+    }
+    .sectionblock{
+        padding: 30px 0;
+    }
+    .blocksec{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    .cardsec{
+        width: 80%;
+    }
+    .seczag2{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .sectext2{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .seccard{
+        width: 80%;
+    }
+    .secblock{
+        justify-content: center;
+        gap: 15px;
+    }
+    .seccard_zag{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .sec3zag{
+        font-size: 30px;
+    }
+    .sec3text{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .block{
+        width: 320px;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .card{
+        width: 245px;
+       
+    }
+    .footerblock{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .footercard{
+        width: 80%;
+        margin-right: 0;
+    }
+    .footerlist{
+        width: 80%;
+        margin-right: 0;
+        margin: 10px 0;
+    }
+    .footerlink{
+        margin-bottom: 8px;
+    }
+    .zag{
+        font-size: 25px;
+    }
+    .prlink{
+        width: 125px;
+        height: 30px;
+        font-size: 11px;
+    }
+    .header_link{
+        width: 125px;
+        height: 30px;
+        font-size: 11px;
+    }
+    .prostoblock{
+        height: 140px;
+    }
+}
+@media(max-width:480px){
+    .container{
+        max-width: 320px;
+    }
+    .link{
+        margin-right: 0px;
+    }
+    .list:{
+        flex-wrap: wrap;
+    }
+    .navcontent{
+        flex-wrap: wrap;
+    }
+    .seczag{
+        width: 290px;
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 500;
+        
+    }
+    .sectext{
+        width: 290px;
+        font-size: 13px;
+        line-height: 0px;
+        margin-bottom: 30px;
+        
+    }  
+    .leftconzag{
+        width: 220px;
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .leftcontext{
+        width: 200px;
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .leftcontextt{
+        width: 200px;
+        font-size: 13px;
+        line-height: 17px;
+        padding-top: 8px;
+    }
+    .sectionblock{
+        padding: 15px 0;
+    }
+    .cardsec{
+        height:233px;
+        padding: 15px 10px 10px 10px;
+    }
+    .cardseczag{
+        font-size: 17px;
+        text-align: center;
+    }
+    .cardsectext{
+        text-align: center;
+    }
+    .secfoto{
+        margin-top: -5px;
+    }
+    .secblock{
+        padding: 15px;
+    }
+    .seccard{
+        padding: 12px 10px 91px 10px;
+    }
+    .section3{
+        padding-top: 25px;
+    }
+    .block{
+        width: 320px;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        width: 90%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+}
